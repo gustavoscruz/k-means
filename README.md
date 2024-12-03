@@ -40,7 +40,7 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
    ```bash
    python seu_arquivo.py
 
-# Direcionamento para o Relatório Técnico
+## Direcionamento para o Relatório Técnico
 
 Para uma análise detalhada de todas as etapas do projeto, incluindo a implementação, avaliação e conclusões, consulte o **Relatório Técnico** que acompanha este repositório. O relatório contém:
 
@@ -53,7 +53,7 @@ O relatório está disponível no arquivo [relatorio.pdf](relatorio.pdf). Clique
 
 ---
 
-# Principais Conclusões e Considerações sobre os Resultados Obtidos
+## Principais Conclusões e Considerações sobre os Resultados Obtidos
 
 - **Escolha do Número de Clusters**: A escolha do número de clusters foi feita utilizando o método do cotovelo e o **Silhouette Score**, com K=6 se mostrando o valor ideal para separar as atividades de maneira eficaz.
   
