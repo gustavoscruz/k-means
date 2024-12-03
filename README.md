@@ -28,3 +28,14 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
    ```bash
    python -m venv venv
    source venv/bin/activate  # Para Windows, use venv\Scripts\activate
+3. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+4. **Baixe os dados necessários** (dataset "Human Activity Recognition Using Smartphones")
+   **e coloque os arquivos no diretório adequado:**
+   X_train.txt
+   y_train.txt
+   features.txt
+5. **Execute o código principal:**
+   ```bash
+   python seu_arquivo.py
