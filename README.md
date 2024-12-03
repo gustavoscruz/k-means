@@ -39,3 +39,26 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
 5. **Execute o código principal:**
    ```bash
    python seu_arquivo.py
+
+# Direcionamento para o Relatório Técnico
+
+Para uma análise detalhada de todas as etapas do projeto, incluindo a implementação, avaliação e conclusões, consulte o **Relatório Técnico** que acompanha este repositório. O relatório contém:
+
+- **Introdução** ao problema de reconhecimento de atividades humanas e a justificativa para o uso do algoritmo K-means.
+- **Metodologia**, incluindo as etapas de análise exploratória, implementação do K-means e escolha do número de clusters.
+- **Resultados** com a avaliação do modelo e análise dos clusters gerados.
+- **Discussão** sobre as limitações e possíveis melhorias no modelo, além de sugestões de trabalhos futuros.
+
+O relatório está disponível no arquivo [relatorio.pdf](relatorio.pdf). Clique no arquivo para acessá-lo.
+
+---
+
+# Principais Conclusões e Considerações sobre os Resultados Obtidos
+
+- **Escolha do Número de Clusters**: A escolha do número de clusters foi feita utilizando o método do cotovelo e o **Silhouette Score**, com K=6 se mostrando o valor ideal para separar as atividades de maneira eficaz.
+  
+- **Qualidade dos Clusters**: O **Silhouette Score** para K=6 indicou uma boa separação e coesão entre os clusters gerados, o que demonstra que o modelo conseguiu identificar padrões distintos nas atividades humanas com boa precisão.
+
+- **Limitações**: O K-means é sensível à inicialização aleatória dos centróides. Embora a inicialização **K-means++** tenha sido utilizada para melhorar a escolha dos centróides, o modelo ainda pode ser sensível a variações nos dados ou na escolha do número de clusters.
+
+- **Trabalhos Futuros**: Em projetos futuros, seria interessante explorar técnicas de clustering mais avançadas, como **DBSCAN** ou **Agglomerative Clustering**, que podem oferecer resultados melhores em situações com dados mais complexos ou com ruídos.
