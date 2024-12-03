@@ -35,7 +35,7 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
    **e coloque os arquivos no diretório adequado:** <br>
    X_train.txt<br>
    y_train.txt<br>
-   features.txt<br>
+   features.txt<br><br>
 5. **Execute o código principal:**
    ```bash
    python seu_arquivo.py
