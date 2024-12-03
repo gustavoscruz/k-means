@@ -62,3 +62,11 @@ O relatório está disponível no arquivo [relatorio.pdf](relatorio.pdf). Clique
 - **Limitações**: O K-means é sensível à inicialização aleatória dos centróides. Embora a inicialização **K-means++** tenha sido utilizada para melhorar a escolha dos centróides, o modelo ainda pode ser sensível a variações nos dados ou na escolha do número de clusters.
 
 - **Trabalhos Futuros**: Em projetos futuros, seria interessante explorar técnicas de clustering mais avançadas, como **DBSCAN** ou **Agglomerative Clustering**, que podem oferecer resultados melhores em situações com dados mais complexos ou com ruídos.
+
+
+Esse **`README.md`** contém:
+
+- **Objetivo do Projeto**: Explicação do que o projeto busca alcançar com o algoritmo K-means.
+- **Instruções para executar o código**: Detalhes sobre como configurar o ambiente e rodar o código.
+- **Principais conclusões e considerações sobre os resultados obtidos**: Resumo dos resultados, incluindo a escolha do número de clusters, qualidade dos clusters e limitações, além de sugestões para trabalhos futuros.
+
