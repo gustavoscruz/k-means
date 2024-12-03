@@ -24,3 +24,7 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
+2. **Crie um ambiente virtual**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Para Windows, use venv\Scripts\activate
