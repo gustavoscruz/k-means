@@ -32,7 +32,7 @@ Este projeto tem como objetivo aplicar o algoritmo K-means para realizar o agrup
    ```bash
    pip install -r requirements.txt
 4. **Baixe os dados necessários** (dataset "Human Activity Recognition Using Smartphones")<br>
-   **e coloque os arquivos no diretório adequado:**
+   **e coloque os arquivos no diretório adequado:** <br>
    X_train.txt<br>
    y_train.txt<br>
    features.txt<br>
